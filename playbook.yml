@@ -1,5 +1,0 @@
-- name: webserver
-  become: true
-  tasks:
-     -name: create directory
-      file: path=/tmp/test state=directory
