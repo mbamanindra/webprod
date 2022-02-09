@@ -1,4 +1,4 @@
-- name: webserver
+- name: webservers
   become: true
   tasks:
      -name: create directory
